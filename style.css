@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Orelega One", cursive;
+}
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+.circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: rgb(230, 230, 136);
+}
+.legend {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.legend-items {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+}
+header {
+  background: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 15rem;
+  padding: 1rem;
+}
+.header-head {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: royalblue;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: #00000011;
+  margin-top: 4rem;
+  padding: 1rem;
+  color: cadetblue;
+  border-radius: 1rem;
+}
+.web-desc {
+  margin-top: 0.3rem;
+  color: black !important;
+}
+.web-items {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-decoration: none !important;
+}
+.web-head,
+.web-desc {
+  text-decoration: none;
+}
+.items {
+  background-color: white;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.head-date{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 8fr 7fr;
+    grid-template-columns: 8fr 7fr;
+}
+.web-date{
+    text-align: right;
+}
